@@ -1,5 +1,0 @@
-interest-proposition-count-cumulative-diminished-current_proposition-inclusive.md.todo
-interest-proposition-count-cumulative-diminished-current_proposition-exclusive.md.todo
-
-interest-proposition-count-cumulative-current_proposition-inclusive.md.todo
-interest-proposition-count-cumulative-current_proposition-exclusive.md.todo

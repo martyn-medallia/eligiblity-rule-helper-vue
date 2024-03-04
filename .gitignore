@@ -3,3 +3,4 @@ package-lock.json
 .eslintrc.js
 .editorconfig
 .browserslistrc
+*~$Decisions.xlsx
