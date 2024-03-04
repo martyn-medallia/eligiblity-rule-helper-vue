@@ -2,8 +2,8 @@ In this example, we will get the `Cumulative Count` where the `Proposition` is t
 
 As there is no aggrigation needed, we first open the `DIP`, select the field we want, and apply our filter
 
-![](interest-proposition-count-cumulative-current_proposition-1.png)
+![](interest-proposition-count-cumulative-current_proposition-one-1.png)
 
 We can now save our rule as this is all we need to do at this step.
 
-![](interest-proposition-count-cumulative-current_proposition-2.png)
+![](interest-proposition-count-cumulative-current_proposition-one-2.png)
