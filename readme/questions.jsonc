@@ -1,0 +1,879 @@
+[
+    {
+        "id": "1",
+        "question": {
+            "technical": "Which Entity do you want data for?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1",
+                "answer": {
+                    "technical": "Actions",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2",
+                "answer": {
+                    "technical": "Propositions",
+                    "business": ""
+                }
+            }
+        ]
+    }, 
+    
+    // Proposition DA
+    {
+        "id": "1.2",
+        "question": {
+            "technical": "Do you want to include an Activity Type?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.1",
+                "answer": {
+                    "technical": "Just Propositions",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2",
+                "answer": {
+                    "technical": "Propostions & Activity Types",
+                    "business": ""
+                }
+            }
+        ]
+    }, 
+    
+    // Proposition
+    {
+        "id": "1.2.1",
+        "question": {
+            "technical": "Which type of data do you want?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.1.1",
+                "answer": {
+                    "technical": "Interest count of a single Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.1.2",
+                "answer": {
+                    "technical": "Diminished Interest count of a single Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.1.3",
+                "answer": {
+                    "technical": "Interest count of multiple Propositions",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.1.4",
+                "answer": {
+                    "technical": "Diminished Interest count of multiple Propositions",
+                    "business": ""
+                }
+            }
+        ]
+    }, 
+    
+    // Proposition Fields
+    {
+        "id": "1.2.1.1",
+        "question": {
+            "technical": "Do want to check a specific Proposition or use the one assigned to the Action",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.1.1.2",
+                "end": true,
+                "answer": {
+                    "technical": "Actions Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.1.1.4",
+                "end": true,
+                "answer": {
+                    "technical": "Specific Proposition",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.1.2",
+        "question": {
+            "technical": "Do want to check a specific Proposition or use the one assigned to the Action",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.1.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "Actions Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.1.2.4",
+                "end": true,
+                "answer": {
+                    "technical": "Specific Proposition",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.1.3",
+        "question": {
+            "technical": "what proposition matching",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.1.3.1",
+                "end": true,
+                "answer": {
+                    "technical": "All Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.1.3.2",
+                "end": true,
+                "answer": {
+                    "technical": "Actions Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.1.3.3",
+                "end": true,
+                "answer": {
+                    "technical": "Proposition containing text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.1.3.4",
+                "end": true,
+                "answer": {
+                    "technical": "Specific Proposition",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.1.4",
+        "question": {
+            "technical": "what proposition matching",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.1.4.1",
+                "end": true,
+                "answer": {
+                    "technical": "All Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.1.4.2",
+                "end": true,
+                "answer": {
+                    "technical": "Actions Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.1.4.3",
+                "end": true,
+                "answer": {
+                    "technical": "Proposition containing text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.1.4.4",
+                "end": true,
+                "answer": {
+                    "technical": "Specific Proposition",
+                    "business": ""
+                }
+            }
+        ]
+    },
+
+    // Activity Type
+    {
+        "id": "1.2.2",
+        "question": {
+            "technical": "Which type of data do you want?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.1",
+                "answer": {
+                    "technical": "Activity Count",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.2",
+                "answer": {
+                    "technical": "Diminished Activity Count",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.3",
+                "answer": {
+                    "technical": "Last Occurrance",
+                    "business": ""
+                }
+            }
+        ]
+    }, 
+
+    // Activity Count
+    {
+        "id": "1.2.2.1",
+        "question": {
+            "technical": "How many Activity Types do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.1.1",
+                "answer": {
+                    "technical": "Match 1 Activity Type",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.1.2",
+                "answer": {
+                    "technical": "Match multiple Activity Types",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.1.1",
+        "question": {
+            "technical": "what proposition matching",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.1.1.1",
+                "end": true,
+                "answer": {
+                    "technical": "All Propositions",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.1.1.2",
+                "answer": {
+                    "technical": "Actions Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.1.1.3",
+                "end": true,
+                "answer": {
+                    "technical": "Proposition containing text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.1.1.4",
+                "answer": {
+                    "technical": "Specific Proposition",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.1.1.2",
+        "question": {
+            "technical": "How do you want to match the Actions Proposition",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.1.1.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Just the Actions Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.1.1.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "The Actions Proposition and children",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.1.1.2.3",
+                "end": true,
+                "answer": {
+                    "technical": "The Actions Propositions Children, but not the Actions Proposition itself",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.1.1.4",
+        "question": {
+            "technical": "How do you want to match the Specific Proposition",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.1.1.4.1",
+                "end": true,
+                "answer": {
+                    "technical": "Just the Specific Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.1.1.4.2",
+                "end": true,
+                "answer": {
+                    "technical": "The Specific Proposition and children",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.1.1.4.3",
+                "end": true,
+                "answer": {
+                    "technical": "The Specific Propositions Children, but not the Specific Proposition itself",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.1.2",
+        "question": {
+            "technical": "what proposition matching",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.1.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "All Propositions",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.1.2.2",
+                "answer": {
+                    "technical": "Actions Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.1.2.3",
+                "end": true,
+                "answer": {
+                    "technical": "Proposition containing text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.1.2.4",
+                "answer": {
+                    "technical": "Specific Proposition",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.1.2.2",
+        "question": {
+            "technical": "How do you want to match the Actions Proposition",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.1.2.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Just the Actions Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.1.2.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "The Actions Proposition and children",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.1.2.2.3",
+                "end": true,
+                "answer": {
+                    "technical": "The Actions Propositions Children, but not the Actions Proposition itself",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.1.2.4",
+        "question": {
+            "technical": "How do you want to match the Specific Proposition",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.1.2.4.1",
+                "end": true,
+                "answer": {
+                    "technical": "Just the Specific Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.1.2.4.2",
+                "end": true,
+                "answer": {
+                    "technical": "The Specific Proposition and children",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.1.2.4.3",
+                "end": true,
+                "answer": {
+                    "technical": "The Specific Propositions Children, but not the Specific Proposition itself",
+                    "business": ""
+                }
+            }
+        ]
+    },
+    
+    // Diminished Activity Count
+    {
+        "id": "1.2.2.2",
+        "question": {
+            "technical": "How many Activity Types do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.2.1",
+                "answer": {
+                    "technical": "Match 1 Activity Type",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.2.2",
+                "answer": {
+                    "technical": "Match multiple Activity Types",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.2.1",
+        "question": {
+            "technical": "what proposition matching",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.2.1.1",
+                "end": true,
+                "answer": {
+                    "technical": "All Propositions",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.2.1.2",
+                "answer": {
+                    "technical": "Actions Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.2.1.3",
+                "end": true,
+                "answer": {
+                    "technical": "Proposition containing text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.2.1.4",
+                "answer": {
+                    "technical": "Specific Proposition",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.2.1.2",
+        "question": {
+            "technical": "How do you want to match the Actions Proposition",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.2.1.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Just the Actions Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.2.1.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "The Actions Proposition and children",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.2.1.2.3",
+                "end": true,
+                "answer": {
+                    "technical": "The Actions Propositions Children, but not the Actions Proposition itself",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.2.1.4",
+        "question": {
+            "technical": "How do you want to match the Specific Proposition",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.2.1.4.1",
+                "end": true,
+                "answer": {
+                    "technical": "Just the Specific Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.2.1.4.2",
+                "end": true,
+                "answer": {
+                    "technical": "The Specific Proposition and children",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.2.1.4.3",
+                "end": true,
+                "answer": {
+                    "technical": "The Specific Propositions Children, but not the Specific Proposition itself",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.2.2",
+        "question": {
+            "technical": "what proposition matching",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.2.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "All Propositions",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.2.2.2",
+                "answer": {
+                    "technical": "Actions Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.2.2.3",
+                "end": true,
+                "answer": {
+                    "technical": "Proposition containing text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.2.2.4",
+                "answer": {
+                    "technical": "Specific Proposition",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.2.2.2",
+        "question": {
+            "technical": "How do you want to match the Actions Proposition",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.2.2.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Just the Actions Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.2.2.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "The Actions Proposition and children",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.2.2.2.3",
+                "end": true,
+                "answer": {
+                    "technical": "The Actions Propositions Children, but not the Actions Proposition itself",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.2.2.4",
+        "question": {
+            "technical": "How do you want to match the Specific Proposition",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.2.2.4.1",
+                "end": true,
+                "answer": {
+                    "technical": "Just the Specific Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.2.2.4.2",
+                "end": true,
+                "answer": {
+                    "technical": "The Specific Proposition and children",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.2.2.4.3",
+                "end": true,
+                "answer": {
+                    "technical": "The Specific Propositions Children, but not the Specific Proposition itself",
+                    "business": ""
+                }
+            }
+        ]
+    },
+
+    // Last Occurrance
+    {
+        "id": "1.2.2.3",
+        "question": {
+            "technical": "How many Activity Types do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.3.1",
+                "answer": {
+                    "technical": "Match 1 Activity Type",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.3.2",
+                "answer": {
+                    "technical": "Match multiple Activity Types",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.3.1",
+        "question": {
+            "technical": "what proposition matching",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.3.1.1",
+                "end": true,
+                "answer": {
+                    "technical": "All Propositions",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.3.1.2",
+                "answer": {
+                    "technical": "Actions Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.3.1.3",
+                "end": true,
+                "answer": {
+                    "technical": "Proposition containing text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.3.1.4",
+                "answer": {
+                    "technical": "Specific Proposition",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.3.1.2",
+        "question": {
+            "technical": "How do you want to match the Actions Proposition",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.3.1.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Just the Actions Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.3.1.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "The Actions Proposition and children",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.3.1.2.3",
+                "end": true,
+                "answer": {
+                    "technical": "The Actions Propositions Children, but not the Actions Proposition itself",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.3.1.4",
+        "question": {
+            "technical": "How do you want to match the Specific Proposition",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.3.1.4.1",
+                "end": true,
+                "answer": {
+                    "technical": "Just the Specific Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.3.1.4.2",
+                "end": true,
+                "answer": {
+                    "technical": "The Specific Proposition and children",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.3.1.4.3",
+                "end": true,
+                "answer": {
+                    "technical": "The Specific Propositions Children, but not the Specific Proposition itself",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.3.2",
+        "question": {
+            "technical": "what proposition matching",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.3.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "All Propositions",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.3.2.2",
+                "answer": {
+                    "technical": "Actions Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.3.2.3",
+                "end": true,
+                "answer": {
+                    "technical": "Proposition containing text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.3.2.4",
+                "answer": {
+                    "technical": "Specific Proposition",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.3.2.2",
+        "question": {
+            "technical": "How do you want to match the Actions Proposition",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.3.2.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Just the Actions Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.3.2.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "The Actions Proposition and children",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.3.2.2.3",
+                "end": true,
+                "answer": {
+                    "technical": "The Actions Propositions Children, but not the Actions Proposition itself",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.2.2.3.2.4",
+        "question": {
+            "technical": "How do you want to match the Specific Proposition",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.2.2.3.2.4.1",
+                "end": true,
+                "answer": {
+                    "technical": "Just the Specific Proposition",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.3.2.4.2",
+                "end": true,
+                "answer": {
+                    "technical": "The Specific Proposition and children",
+                    "business": ""
+                }
+            }, {
+                "id": "1.2.2.3.2.4.3",
+                "end": true,
+                "answer": {
+                    "technical": "The Specific Propositions Children, but not the Specific Proposition itself",
+                    "business": ""
+                }
+            }
+        ]
+    }
+]
