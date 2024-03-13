@@ -1070,14 +1070,14 @@
         },
         "answers": [
             {
-                "id": "1.2.1.1.2",
+                "id": "1.2.1.1.1",
                 "end": true,
                 "answer": {
                     "technical": "Actions Proposition",
                     "business": ""
                 }
             }, {
-                "id": "1.2.1.1.4",
+                "id": "1.2.1.1.2",
                 "end": true,
                 "answer": {
                     "technical": "Specific Proposition",
@@ -1093,14 +1093,14 @@
         },
         "answers": [
             {
-                "id": "1.2.1.2.2",
+                "id": "1.2.1.2.1",
                 "end": true,
                 "answer": {
                     "technical": "Actions Proposition",
                     "business": ""
                 }
             }, {
-                "id": "1.2.1.2.4",
+                "id": "1.2.1.2.2",
                 "end": true,
                 "answer": {
                     "technical": "Specific Proposition",
