@@ -23,8 +23,983 @@
     }, 
     
     // Action DA
+    {
+        "id": "1.1",
+        "question": {
+            "technical": "What response do you want to check?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.1",
+                "answer": {
+                    "technical": "View",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.2",
+                "answer": {
+                    "technical": "Positive",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.3",
+                "answer": {
+                    "technical": "Neutral",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.4",
+                "answer": {
+                    "technical": "Negative",
+                    "business": ""
+                }
+            }, 
+        ]
+    },
 
+    // Sentiments
+    {
+        "id": "1.1.1",
+        "question": {
+            "technical": "What field would you like to check?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.1.1",
+                "answer": {
+                    "technical": "View Count",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.1.2",
+                "answer": {
+                    "technical": "Diminished View Count",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.1.3",
+                "answer": {
+                    "technical": "Datetime of Last View",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.2",
+        "question": {
+            "technical": "What field would you like to check?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.2.1",
+                "answer": {
+                    "technical": "Positive Click Count",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.2.2",
+                "answer": {
+                    "technical": "Diminished Positive Click Count",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.2.3",
+                "answer": {
+                    "technical": "Datetime of Last Positive Click",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.3",
+        "question": {
+            "technical": "What field would you like to check?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.3.1",
+                "answer": {
+                    "technical": "Neutral Click Count",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.3.2",
+                "answer": {
+                    "technical": "Diminished Neutral Click Count",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.3.3",
+                "answer": {
+                    "technical": "Datetime of Last Neutral Click",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.4",
+        "question": {
+            "technical": "What field would you like to check?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.4.1",
+                "answer": {
+                    "technical": "Negative Click Count",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.4.2",
+                "answer": {
+                    "technical": "Diminished Negative Click Count",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.4.3",
+                "answer": {
+                    "technical": "Datetime of Last Negative Click",
+                    "business": ""
+                }
+            }
+        ]
+    },
 
+    // View Count
+    {
+        "id": "1.1.1.1",
+        "question": {
+            "technical": "How many Actions do you wan to match",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.1.1.1",
+                "answer": {
+                    "technical": "One Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.1.1.2",
+                "answer": {
+                    "technical": "Multiple Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.1.1.1",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.1.1.1.1",
+                "end": true,
+                "answer": {
+                    "technical": "Current Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.1.1.1.2",
+                "end": true,
+                "answer": {
+                    "technical": "Specific Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.1.1.2",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.1.1.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.1.1.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Campaign Code",
+                    "business": ""
+                }
+            }
+        ]
+    }, 
+    // Diminished View Count
+    {
+        "id": "1.1.1.2",
+        "question": {
+            "technical": "How many Actions do you wan to match",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.1.2.1",
+                "answer": {
+                    "technical": "One Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.1.2.2",
+                "answer": {
+                    "technical": "Multiple Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.1.2.1",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.1.2.1.1",
+                "end": true,
+                "answer": {
+                    "technical": "Current Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.1.2.1.2",
+                "end": true,
+                "answer": {
+                    "technical": "Specific Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.1.2.2",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.1.2.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.1.2.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Campaign Code",
+                    "business": ""
+                }
+            }
+        ]
+    }, 
+    // Datetime of Last View
+    {
+        "id": "1.1.1.3",
+        "question": {
+            "technical": "How many Actions do you wan to match",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.1.3.1",
+                "answer": {
+                    "technical": "One Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.1.3.2",
+                "answer": {
+                    "technical": "Multiple Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.1.3.1",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.1.3.1.1",
+                "end": true,
+                "answer": {
+                    "technical": "Current Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.1.3.1.2",
+                "end": true,
+                "answer": {
+                    "technical": "Specific Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.1.3.2",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.1.3.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.1.3.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Campaign Code",
+                    "business": ""
+                }
+            }
+        ]
+    }, 
+
+    // Positive Count
+    {
+        "id": "1.1.2.1",
+        "question": {
+            "technical": "How many Actions do you wan to match",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.2.1.1",
+                "answer": {
+                    "technical": "One Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.2.1.2",
+                "answer": {
+                    "technical": "Multiple Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.2.1.1",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.2.1.1.1",
+                "end": true,
+                "answer": {
+                    "technical": "Current Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.2.1.1.2",
+                "end": true,
+                "answer": {
+                    "technical": "Specific Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.2.1.2",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.2.1.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.2.1.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Campaign Code",
+                    "business": ""
+                }
+            }
+        ]
+    }, 
+    // Diminished Positive Click Count
+    {
+        "id": "1.1.2.2",
+        "question": {
+            "technical": "How many Actions do you wan to match",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.2.2.1",
+                "answer": {
+                    "technical": "One Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.2.2.2",
+                "answer": {
+                    "technical": "Multiple Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.2.2.1",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.2.2.1.1",
+                "end": true,
+                "answer": {
+                    "technical": "Current Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.2.2.1.2",
+                "end": true,
+                "answer": {
+                    "technical": "Specific Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.2.2.2",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.2.2.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.2.2.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Campaign Code",
+                    "business": ""
+                }
+            }
+        ]
+    }, 
+    // Datetime of Last Positive Click
+    {
+        "id": "1.1.2.3",
+        "question": {
+            "technical": "How many Actions do you wan to match",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.2.3.1",
+                "answer": {
+                    "technical": "One Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.2.3.2",
+                "answer": {
+                    "technical": "Multiple Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.2.3.1",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.2.3.1.1",
+                "end": true,
+                "answer": {
+                    "technical": "Current Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.2.3.1.2",
+                "end": true,
+                "answer": {
+                    "technical": "Specific Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.2.3.2",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.2.3.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.2.3.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Campaign Code",
+                    "business": ""
+                }
+            }
+        ]
+    }, 
+
+    // Neutral Count
+    {
+        "id": "1.1.3.1",
+        "question": {
+            "technical": "How many Actions do you wan to match",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.3.1.1",
+                "answer": {
+                    "technical": "One Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.3.1.2",
+                "answer": {
+                    "technical": "Multiple Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.3.1.1",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.3.1.1.1",
+                "end": true,
+                "answer": {
+                    "technical": "Current Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.3.1.1.2",
+                "end": true,
+                "answer": {
+                    "technical": "Specific Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.3.1.2",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.3.1.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.3.1.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Campaign Code",
+                    "business": ""
+                }
+            }
+        ]
+    }, 
+    // Diminished Neutral Click Count
+    {
+        "id": "1.1.3.2",
+        "question": {
+            "technical": "How many Actions do you wan to match",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.3.2.1",
+                "answer": {
+                    "technical": "One Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.3.2.2",
+                "answer": {
+                    "technical": "Multiple Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.3.2.1",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.3.2.1.1",
+                "end": true,
+                "answer": {
+                    "technical": "Current Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.3.2.1.2",
+                "end": true,
+                "answer": {
+                    "technical": "Specific Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.3.2.2",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.3.2.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.3.2.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Campaign Code",
+                    "business": ""
+                }
+            }
+        ]
+    }, 
+    // Datetime of Last Neutral Click
+    {
+        "id": "1.1.3.3",
+        "question": {
+            "technical": "How many Actions do you wan to match",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.3.3.1",
+                "answer": {
+                    "technical": "One Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.3.3.2",
+                "answer": {
+                    "technical": "Multiple Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.3.3.1",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.3.3.1.1",
+                "end": true,
+                "answer": {
+                    "technical": "Current Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.3.3.1.2",
+                "end": true,
+                "answer": {
+                    "technical": "Specific Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.3.3.2",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.3.3.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.3.3.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Campaign Code",
+                    "business": ""
+                }
+            }
+        ]
+    }, 
+
+    // Negative Count
+    {
+        "id": "1.1.4.1",
+        "question": {
+            "technical": "How many Actions do you wan to match",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.4.1.1",
+                "answer": {
+                    "technical": "One Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.4.1.2",
+                "answer": {
+                    "technical": "Multiple Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.4.1.1",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.4.1.1.1",
+                "end": true,
+                "answer": {
+                    "technical": "Current Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.4.1.1.2",
+                "end": true,
+                "answer": {
+                    "technical": "Specific Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.4.1.2",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.4.1.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.4.1.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Campaign Code",
+                    "business": ""
+                }
+            }
+        ]
+    }, 
+    // Diminished Negative Click Count
+    {
+        "id": "1.1.4.2",
+        "question": {
+            "technical": "How many Actions do you wan to match",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.4.2.1",
+                "answer": {
+                    "technical": "One Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.4.2.2",
+                "answer": {
+                    "technical": "Multiple Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.4.2.1",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.4.2.1.1",
+                "end": true,
+                "answer": {
+                    "technical": "Current Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.4.2.1.2",
+                "end": true,
+                "answer": {
+                    "technical": "Specific Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.4.2.2",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.4.2.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.4.2.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Campaign Code",
+                    "business": ""
+                }
+            }
+        ]
+    }, 
+    // Datetime of Last Negative Click
+    {
+        "id": "1.1.4.3",
+        "question": {
+            "technical": "How many Actions do you wan to match",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.4.3.1",
+                "answer": {
+                    "technical": "One Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.4.3.2",
+                "answer": {
+                    "technical": "Multiple Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.4.3.1",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.4.3.1.1",
+                "end": true,
+                "answer": {
+                    "technical": "Current Action",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.4.3.1.2",
+                "end": true,
+                "answer": {
+                    "technical": "Specific Action",
+                    "business": ""
+                }
+            }
+        ]
+    }, {
+        "id": "1.1.4.3.2",
+        "question": {
+            "technical": "How do you want to match?",
+            "business": ""
+        },
+        "answers": [
+            {
+                "id": "1.1.4.3.2.1",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Text",
+                    "business": ""
+                }
+            }, {
+                "id": "1.1.4.3.2.2",
+                "end": true,
+                "answer": {
+                    "technical": "Includes Campaign Code",
+                    "business": ""
+                }
+            }
+        ]
+    }, 
 
     // Proposition DA
     {
