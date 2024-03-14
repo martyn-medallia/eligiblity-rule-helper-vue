@@ -4,11 +4,13 @@ As we are aggrigating, we first need to select which aggrigation `function` we a
 
 ![alt text](image_1.png)
 
-Next we open the `DIP`, select the field we want:
+Next, we open the `DIP`, select the field we want:
 
 ![alt text](image_2.png)
 
-After we apply our filter:
+You will notice that as we have used this `function`, when we enter the `DIP` we are limted to only fields that return a `number` and that we are not required to apply any filters.
+
+Next, we apply our filter:
 
 ![alt text](image_3.png)
 
